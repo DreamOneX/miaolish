@@ -1,7 +1,8 @@
 # 猫叫翻译机！
 
 能把中文翻译成猫叫的翻译机！
-灵感来自https://github.com/RimoChan/yinglish.git(<sub>其实就是搜索替换了字符串</sub>)
+灵感来自https://github.com/RimoChan/yinglish.git
+~~(其实就是搜索替换了字符串)~~
 
 
 ## 样例
