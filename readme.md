@@ -1,32 +1,26 @@
-# 淫语翻译机！
+# 猫叫翻译机！
 
-能把中文翻译成淫语的翻译机！
-
-<sub>(其实灵感是来自北京地铁站，那个写站名的告示牌真的好色啊2333)</sub>
+能把中文翻译成猫叫的翻译机！
+灵感来自https://github.com/RimoChan/yinglish.git(<sub>其实就是搜索替换了字符串</sub>)
 
 
 ## 样例
 
 ```python
-import yinglish
+import miaolish
 
-s = '不行，那里不行。'
-print(yinglish.chs2yin(s))
-# 不行，那……那里不行……
-
-s2 = '吃葡萄不吐葡萄皮。'
-print(yinglish.chs2yin(s2))
-# ……吃〇〇不吐葡……葡萄皮……
+print(miaolish.chs2miao('你好吖！'))
+#你，喵，喵，你好猫猫吖，喵喵喵！
 ```
 
 
 ## 接口说明
 
 ```python
-def chs2yin(s, 淫乱度=0.5):
+def chs2miao(s, 猫叫率=0.5):
 ```
 
-s是原字符串，淫乱度是0~1的实数，越大越淫乱，表示每个词语被转化的概率。
+s是原字符串，猫叫率是0~1的实数，越大越容易猫叫，表示每个词语被转化的概率。
 
 
 ## 安装
@@ -35,10 +29,10 @@ s是原字符串，淫乱度是0~1的实数，越大越淫乱，表示每个词�
 
 然后——
 ```bash 
-pip install git+https://github.com/RimoChan/yinglish.git
+pip install git+https://github.com/DreamOneX/miaolish.git
 ```
 
-最后`import yinglish`就行了。
+最后`import miaolish`就行了。
 
 
 ## 结束

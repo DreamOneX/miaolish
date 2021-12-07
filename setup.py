@@ -2,16 +2,15 @@ import setuptools
 
 
 setuptools.setup(
-    name='yinglish',
+    name='miaolish',
     version='1.0.0',
-    author='RimoChan',
-    author_email='the@librian.net',
-    description='yinglish',
+    author='DreamOneX',
+    description='Let\'s learn how to bark together',
     long_description=open('readme.md', encoding='utf8').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/RimoChan/yinglish',
+    url='https://github.com/DreamOneX/miaolish',
     packages=[
-        'yinglish',
+        'miaolish',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
