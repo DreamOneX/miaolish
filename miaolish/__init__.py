@@ -4,7 +4,7 @@ import random
 import jieba
 import jieba.posseg as pseg
 
-__all__= ['chs2miao']
+__all__ = ['chs2miao']
 jieba.setLogLevel(20)
 
 
